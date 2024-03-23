@@ -38,7 +38,7 @@
 [0-9]+                  { printf("INTEGER: %s\n", yytext); }
 [0-9]+"."[0-9]*         { printf("FLOAT: %s\n", yytext); }
 [a-zA-Z][a-zA-Z0-9_]*   { printf("IDENTIFIER: %s\n", yytext); }
-.                       { printf("UNKNOWN: %s\n", yytext); }
+
 
 %%
 

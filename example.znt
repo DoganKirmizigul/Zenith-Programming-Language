@@ -1,17 +1,2 @@
-
-var x = 10; // Variable declaration
-var y = 5;
-func add(a, b) { // Function declaration
-    var result = a + b;
-    print result; // Print statement
-}
-if (x > y) { // If statement
-    print "x is greater than y";
-} else { // Else statement
-    print "y is greater than x";
-}
-while (x > 0) { // While loop
-    print x;
-    x = x - 1;
-}
-
+x = 4;
+print x;
