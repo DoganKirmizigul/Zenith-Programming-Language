@@ -190,10 +190,12 @@ BOOLEAN_FALSE               LITERAL_BOOLEAN_FALSE
 
 ## Explanations about the language
 
-- Zenith language have ```.zth``` file extension. 
+- Zenith language have ```.znt``` file extension. 
 
 - Zenith performs operations with operator signs, thus preventing typos and confusion by using alphabetical words. 
-  ```(ex: x <=111 not gle x 111)```
+  ```(ex: x <=111 )```
+  ```(not lte x 111 )```
+  
 
 - Zenith uses parentheses to express variables.
   ```(ex: func sub(a,b))```
