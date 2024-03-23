@@ -1,13 +1,14 @@
 # Programming Language: Zenith the New One
+ ```
 Group Members: 
 Doğan KIRMIZIGÜL 
 Betül YILDIZ
 Ömer ASLAN
 
-
+ ```
 
 ## Grammar in BNF Form
-
+ ```
 
 <program> ::= <statements>
 
@@ -44,9 +45,10 @@ Betül YILDIZ
                | <expression> LOGICAL_OR <expression>
                ;
 
-
+ ```
 ## Syntax
 # Keywords
+ ```
 VAR                         KEYWORD_VAR
 
 IF                          KEYWORD_IF
@@ -62,10 +64,11 @@ DO                          KEYWORD_DO
 PRINT                       KEYWORD_PRINT
 
 SCAN                        KEYWORD_SCAN
-
+ ```
 
 
 # Operators
+ ```
 
 +                           OPERATOR_PLUS
 
@@ -87,9 +90,10 @@ SCAN                        KEYWORD_SCAN
 
 >=                          LOGICAL_GREATER_THAN_OR_EQUAL
 
-
+ ```
 
 # Delimiters
+ ```
 
 =                           ASSIGNMENT
 
@@ -98,9 +102,10 @@ SCAN                        KEYWORD_SCAN
 (                           LEFT_PAREN
 
 )                           RIGHT_PAREN
-
+ ```
 
 # Data Types
+ ```
 
 INTEGER                     INTEGER
 
@@ -115,10 +120,11 @@ STRING                      STRING
 BOOLEAN_TRUE                BOOLEAN_TRUE
 
 BOOLEAN_FALSE               BOOLEAN_FALSE
-
+ ```
 
 
 # Conditions
+ ```
 
 IF                          CONDITION_IF
 
@@ -129,40 +135,44 @@ ELSE                        CONDITION_ELSE
 WHILE                       CONDITION_WHILE
 
 DO                          CONDITION_DO
-
+ ```
 
 # IO
+ ```
 
 PRINT                       IO_PRINT
 
 SCAN                        IO_SCAN
-
+ ```
 
 
 # Logic
-
+ ```
 AND                         LOGIC_AND
 
 OR                          LOGIC_OR
 
 NOT                         LOGIC_NOT
-
+ ```
 
 # Paranthesis
+ ```
 
 (                           PARANTHESIS_OPEN
 
 )                           PARANTHESIS_CLOSE
+ ```
 
 # Function
-
+ ```
 FUNC                        FUNCTION
 
 RETURN                      RETURN
-
+ ```
 
 
 # Literal
+ ```
 
 INTEGER                     LITERAL_INTEGER
 
@@ -175,20 +185,23 @@ CHARACTER                   LITERAL_CHARACTER
 BOOLEAN_TRUE                LITERAL_BOOLEAN_TRUE
 
 BOOLEAN_FALSE               LITERAL_BOOLEAN_FALSE
-
+ ```
 
 # Comment
+ ```
 
 //                          COMMENT
-
+ ```
 
 # Identifier
+ ```
 
 [a-zA-Z][a-zA-Z0-9_]*      IDENTIFIER
-
+ ```
 
 
 ## Explanations about the language
+ ```
 
 - Zenith language have ```.znt``` file extension. 
 
@@ -208,7 +221,9 @@ BOOLEAN_FALSE               LITERAL_BOOLEAN_FALSE
 - Example usage of Zenith:
 
 var x = 10; // Variable declaration
+
 var y = 5;
+
 func add(a, b) { // Function declaration
     var result = a + b;
     print result; // Print statement
@@ -223,4 +238,5 @@ while (x > 0) { // While loop
     x = x - 1;
 }
 
+ ```
 
