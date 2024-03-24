@@ -240,3 +240,6 @@ while (x > 0) { // While loop
 
  ```
 
+- Commands to run example programs;
+./zenith example.znt
+./zenith example2.znt
