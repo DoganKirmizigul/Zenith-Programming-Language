@@ -60,4 +60,3 @@ int main(int argc, char* argv[]) {
     fclose(input_file);
     return 0;
 }
-
